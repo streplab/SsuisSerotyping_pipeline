@@ -39,7 +39,7 @@ my %opt=qw();
 GetOptions(\%opt, "help|h!", "fastq_directory:s", "scoreName:s", "serotype_db:s", "serotype_definitions:s", "cps2K:s", "MLST_db:s", "MLST_definitions:s", "recN_db:s", "Virulence_db:s", "forward:s", "reverse:s", "ends:s");
 
 if (exists($opt{"help"})) {
-	print "**********************************************\nImplementation of the emm pipeline:\n**********************************************\nperl Ssuis_serotypingPipeline.pl --fastq_directory /path/to/fastq/directory --scoreName Scores_output_name --serotype_db serotype.fasta -- serotype_definitions serotype_definitions.txt --cps2K cps2K.fasta\n\n";
+	print "**********************************************\nImplementation of the S. suis serotyping pipeline:\n**********************************************\nperl Ssuis_serotypingPipeline.pl --fastq_directory /path/to/fastq/directory --scoreName Scores_output_name --serotype_db serotype.fasta -- serotype_definitions serotype_definitions.txt --cps2K cps2K.fasta\n\n";
 	print "--fastq_directory\tPath to directory containing paired-end fastq files.\n\t\t\tMust be full path to directory, please do not use '.'\n\t\t\tor '..' to declare path\n\t\t\tIf no path is given, the current working\n\t\t\tdirectory is used\n";
 	print "--scoreName\t\tName of SRST2 results file\n\t\t\t[optional: default name 'Results']\n";
 	print "--serotype_db\t\tMultifasta file containing the serotype database\n\t\t\t(Ssuis_Serotyping.fasta)\n\t\t\t[If none is provided, Ssuis_Serotyping.fasta is looked\n\t\t\tfor in the directory containing the script]\n";
