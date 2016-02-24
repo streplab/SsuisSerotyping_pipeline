@@ -44,4 +44,4 @@ Output from this pipeline analysis is contained in four directories “recN”, 
 Please note: We recommend using paired end reads of at least 100nt in length and at least 30X coverage. We have not tested the efficiency of the pipeline with reads shorter than 80nt.
 The MLST database provided was downloaded from ssuis.mlst.net on December 31, 2015.  We recommend updating this database from time to time to guarantee accurate MLST assignment.
 
-Provided files: Ssuis_serotypingPipeline.pl, recN.fasta, recN.txt, Ssuis_Serotyping.fasta, Ssuis_Serotyping_Definitions.txt, Ssuis_cps2K.fasta, Streptococcus suis.fasta, ssuis.txt, Virulence.fasta, SNP_AminoAcidChange.pl
+Provided files: Ssuis_serotypingPipeline.pl, recN_full.fasta, Ssuis_Serotyping.fasta, Ssuis_Serotyping_Definitions.txt, Ssuis_cps2K.fasta, Streptococcus suis.fasta, ssuis.txt, Virulence.fasta, SNP_AminoAcidChange.pl
